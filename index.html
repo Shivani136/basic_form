@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>demo</title>
+    </head>
+
+<style>
+.border-layout {
+margin: 10px;
+padding: 15px;
+}
+.border-layout1 {
+  margin: 10px;
+  padding: 5px;
+}
+.border-layout2 {
+  margin: 10px;
+  padding: 15px;
+
+}
+</style>
+<body>
+<h1>Form Demo</h1>
+<div>
+<form class="border-layout " >
+    <fieldset>
+        <legend>Text Inputs:</legend>
+
+  <label for="fname">Text Box:</label>
+  <input type="text" id="fname" name="fname" placeholder="Text here"><br><br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password"><br><br>
+  <label for="textarea">TextHere:</label>
+  <textarea name="message" rows="5" cols="140">Your Text Here</textarea><br><br><br> </p>
+  </fieldset>
+</form>
+</div>
+<div>
+<form class="border-layout1">
+    <fieldset>
+        <legend>Selecting Elements:</legend>
+        <label for="fname">Select List:</label>
+            <select name = "dropdown">
+               <option value = "one" selected>One</option>
+               <option value = "two">Two</option>
+            </select><br><br>
+       
+        <label for="fname">Check Boxes :</label> 
+        <input type = "checkbox" name = "green eggs" value = "on"> Green Eggs
+        <input type = "checkbox" name = "ham" value = "on"> Ham
+   
+            <br><br>
+            <label for="fname">Radio Button:</label> 
+            <input type = "radio" name = "subject" value = "small">small
+            <input type = "radio" name = "subject" value = "medium">medium
+            <input type = "radio" name = "subject" value = "large">large<br><br>
+            </fieldset>
+        </form>
+        </div>
+<div >
+    
+    <form class="border-layout1">
+        <fieldset>
+            <legend>Buttons:</legend>
+    <button type="button" >Standard Button</button>
+    <button type="button" >Input Button</button>
+    <input type = "reset" name = "reset"  value = "Reset" />
+    <input type = "submit" name = "submit" value = "Submit" />
+    </fieldset>
+</form>
+</div>
+
+</body>
+</html>  
